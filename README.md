@@ -42,7 +42,7 @@ import TagElement from './node_module/editorjstagger/index.js';
 // or if you inject Tagger via standalone script
 const TagElement = window.TagElement;
 
-var editor = EditorJS({
+var editor = new EditorJS({
   ...
 
   tools: {
