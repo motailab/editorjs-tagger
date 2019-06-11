@@ -1,0 +1,20 @@
+{
+  "name": "editorjstagger",
+  "version": "1.0.2",
+  "description": "Tagging tool for EditorJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "codex editor",
+    "tool",
+    "tag",
+    "tags",
+    "tagger",
+    "editor.js",
+    "editorjs"
+  ],
+  "author": "motaleb",
+  "license": "ISC"
+}

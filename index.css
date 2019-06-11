@@ -1,0 +1,39 @@
+.wrapper {
+    display: flex;
+    border: 1px solid #cccccc7a;
+    padding: 5px;
+}
+
+.wrapper input {
+    width: auto;
+    padding: 3px 7px 3px 0;
+    border: 0;
+    outline: none;
+    margin: 4px;
+}
+.wrapper > span.tag {
+    position: relative;
+    /* display: block; */
+    /* float: left; */
+    color: #FFFFFF;
+    background: #00e676;
+    padding: 6px 21px 5px 5px;
+    margin: 4px;
+    border-radius: 2px;
+    font-size: .9rem;
+    line-height: .9rem;
+    font-family: "Lato Heavy", sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+.wrapper > span.tag > span.close {
+    position: absolute;
+    right: 0;
+    width: 13px;
+    height: 100%;
+    background: #00b248;
+    top: 0;
+    line-height: 25px;
+    border-radius: 0 2px 2px 0;
+    padding: 0px 0px 0px 5px;
+    cursor: pointer;
+}
