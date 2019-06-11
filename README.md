@@ -4,7 +4,7 @@
 
 Tag Block For EditorJS
 
-![](\screentshot\screenshot.png)
+![](/screentshot/screenshot.png)
 ### Prerequisites
 
 before you start you need add fontawesome in your project
