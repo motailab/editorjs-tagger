@@ -70,5 +70,5 @@ Tagger supports these configuration parameters:
 | Field | Type     | Description        |
 | ----- | -------- | ------------------ |
 | limit | `number: 5` | limit for tags how many you want |
-| as_a_string | `boolean: true or false` | if don't want tags as a array you can set true 
+| as_a_string | `boolean: true or false` | if you don't want tags as a array you can set true 
 |
