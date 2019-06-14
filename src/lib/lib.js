@@ -1,5 +1,3 @@
-import '../index.css';
-
 export class Tagger {
     constructor({data, api, config}) {
         this.wrapper = null;

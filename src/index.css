@@ -13,22 +13,22 @@
 }
 .wrapper > span.tag {
     position: relative;
-    /* display: block; */
-    /* float: left; */
+    display: block;
+    float: left;
     color: #FFFFFF;
     background: #00e676;
-    padding: 6px 21px 5px 5px;
+    padding: 6px 30px 4px 5px;
     margin: 4px;
     border-radius: 2px;
-    font-size: .9rem;
-    line-height: .9rem;
+    font-size: 1rem;
+    line-height: 1rem;
     font-family: "Lato Heavy", sans-serif;
     transition: all 0.3s ease-in-out;
 }
 .wrapper > span.tag > span.close {
     position: absolute;
     right: 0;
-    width: 13px;
+    width: 22px;
     height: 100%;
     background: #00b248;
     top: 0;
