@@ -7,11 +7,6 @@ Tag Block For EditorJS
 ![](/screentshot/screenshot.png)
 ### Prerequisites
 
-before you start you need add fontawesome in your project
-
-```
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
-```
 # Installation
 ## Install via NPM
 Get the package
@@ -21,16 +16,12 @@ npm i editorjstagger --save
 ```
 Include module at your application
 ```javascript
-import TagElement from './node_module/editorjstagger/index.js';
+import Tagger from 'node_module/editorjstagger/dist/bundle.js';
 ```
 ## Other methods
 ### Loading from CDN
 ```
-<script type="module" src="https://cdn.jsdelivr.net/npm/editorjstagger@latest/index.js"></script>
-```
-you also have to add css file for default style
-```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/editorjstagger@latest/index.css">
+<script src="https://cdn.jsdelivr.net/npm/editorjstagger@latest/dist/bundle.js"></script>
 ```
 
 # Usage
@@ -38,9 +29,9 @@ you also have to add css file for default style
 Add a new Tool to the tools property of the Editor.js initial config
 
 ```javascript
-import TagElement from './node_module/editorjstagger/index.js';
+import Tagger from 'node_module/editorjstagger/dist/bundle.js';
 // or if you inject Tagger via standalone script
-const TagElement = window.TagElement;
+const Tagger = window.Tagger;
 
 var editor = new EditorJS({
   ...
@@ -48,7 +39,7 @@ var editor = new EditorJS({
   tools: {
     ...
     tag: {
-      class: TagElement,
+      class: Tagger,
       config: {
           // by default 5 if you want more than five tags change here
           limit: 5,

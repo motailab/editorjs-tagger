@@ -1,14 +1,18 @@
-class TagElement {
+import '../index.css';
+
+export class Tagger {
     constructor({data, api, config}) {
         this.wrapper = null;
         this.content = [];
         this.config = config || {as_a_string: false, limit: 5};
+        this.data = data;
+        this.api = api;
     }
 
     static get toolbox() {
         return {
           title: 'Tag',
-          icon: '<i class="fas fa-tags"></i>'
+          icon: 'T'
         };
       }
     
@@ -104,5 +108,3 @@ class TagElement {
         element.target.parentNode.remove();
     }
 }
-
-export default window.TagElement = TagElement;
